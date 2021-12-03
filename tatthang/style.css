@@ -1,0 +1,90 @@
+body {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: aqua;
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+  background-color: #f7f7f7;
+}
+.dv1 {
+  font-size: 20px;
+}
+.dv2 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+li {
+  margin-bottom: 7px;
+  display: list-item;
+  line-height: 1.5;
+}
+.nut {
+  border-radius: 2px;
+  color: gray;
+  cursor: pointer;
+  margin-right: 0.4rem;
+}
+figcaption {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+strong {
+  font-weight: bolder;
+}
+.nt {
+  margin-bottom: 15px;
+}
+div {
+  display: block;
+}
+blockquote {
+  margin: 0 0 1rem;
+  border: solid #ccc;
+  border-width: 0 0 0 5px;
+  font-style: italic;
+  padding-left: 20px;
+  padding-right: 8px;
+  line-height: 1.5;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.anh {
+  text-align: center;
+}
+.kich-thuoc-anh{
+  width: 700px;
+  max-width: 100%;
+}
+.avatarcmt {
+  margin-right: 1em;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+.cmt {
+  background-color: #35465c;
+  box-shadow: 0 1px 3px #193047;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}

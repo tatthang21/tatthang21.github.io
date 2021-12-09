@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.box11{
+  display: flex;
+ 
+}
+.box11 div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: red;
+  height: 400px;
+  width: 33.3333333%;
+
+}
+.box2 {
+  background-color: green;
+  height: 400px;
+  width: 33.3333333%;
+}
+.box3 {
+  background-color: blue;
+  height: 400px;
+  width: 33.33333333%;
+}
+.box12{
+  display: flex;
+}
+
+.box12 div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box12 .box2{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.khoi{
+  display: flex;
+}
+.khoi div {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.khoi1 {
+  display: flex;
+  background-color: red;
+  height: 400px;
+  width: 60%
+  
+}
+.khoi2 {
+  background-color: green;
+  height: 200px;
+  display: flex;
+}
+.khoi3 {
+  background-color: blue;
+  height: 200px;
+  display: flex;
+}
+.haikhoi{
+  width: 40%;
+}
+.khoi11{
+  margin-right: 15px;
+}

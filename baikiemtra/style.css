@@ -92,17 +92,20 @@
 
 }
 button{
-    background-color: #35465c;
-  box-shadow: 0 1px 3px #193047;
+  background-color: #35465c;
   color: #fff;
   font-size: 14px;
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 .item:hover{
   box-shadow: 0 5px 20px 3px rgba(0,0,0,.1)!important;
   transition: all 0.3s;
   transform: scale(1.05);
   opacity: 0.5;
+}
+button:hover{
+  box-shadow: 0 1px 3px #193047;
 }

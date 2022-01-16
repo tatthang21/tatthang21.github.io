@@ -56,14 +56,16 @@ p {
 .address-email {
   display: flex;
   justify-content: center;
+  height: 50px;
 }
-
+.icon_email {
+  padding-top: 30px;
+}
 .address-email input {
   background-color: #ddd;
   border: none;
   border-bottom: 1px solid gray;
   min-width: 320px;
-  margin-top: 25px;
 }
 .button {
   text-align: center;

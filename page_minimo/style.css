@@ -24,8 +24,8 @@ h4 {
   opacity: 0.6;
   font-size: 0.67em;
 }
-.textcss{
-    margin-top: 50px;
+.textcss {
+  margin-top: 50px;
 }
 h3 {
   font-weight: 400;
@@ -42,64 +42,61 @@ p {
   padding-top: 100px;
 }
 .send-email {
-    background-color: #ddd;
-    margin-top: 60px;
-    min-height: 290px;
-    text-align: center;
+  background-color: #ddd;
+  margin-top: 60px;
+  min-height: 290px;
+  text-align: center;
 }
 .text-email {
-    font-size: 30px;
-    padding-top: 75px;
-    padding-bottom: 25px;
+  font-size: 30px;
+  padding-top: 75px;
+  padding-bottom: 25px;
 }
 
 .address-email {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.address-email input{
-    background-color: #ddd;
-    border: none;
-    border-bottom: 1px solid gray;
-    min-width: 320px;
-    margin-top: 25px;
-
+.address-email input {
+  background-color: #ddd;
+  border: none;
+  border-bottom: 1px solid gray;
+  min-width: 320px;
+  margin-top: 25px;
 }
 .button {
-    text-align: center;
-    margin-top: 160px;
-    margin-bottom: 120px;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 120px;
 }
 
 .button button {
-    padding: 16px 28px;
-    background-color: white;
-    border: 1px solid #aaa;
-    font-size: 16px;
-    
+  padding: 16px 28px;
+  background-color: white;
+  border: 1px solid #aaa;
+  font-size: 16px;
 }
 .fooder {
-    background-color: #ddd;
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
 }
 .fooder p {
-    display: inline-block;
+  display: inline-block;
 }
-.foodder{
-    padding-bottom: 50px;
+.foodder {
+  padding-bottom: 50px;
 }
-.icon1{
-    width: 15px;
-    height: 15px;
-    color: aqua;
-    position: absolute;
-
+.icon1 {
+  width: 15px;
+  height: 15px;
+  color: aqua;
+  position: absolute;
 }
-@media (max-width: 739px){
-    .minion{
-        display: none;
-    }
+@media (max-width: 739px) {
+  .minion {
+    display: none;
+  }
 }

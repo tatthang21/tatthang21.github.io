@@ -101,4 +101,11 @@ p {
   .minion {
     display: none;
   }
+ ul li{
+   margin-left: 35px;
+ }
+ .row{
+  margin-left: 8px;
+  margin-right: 8px;
+ }
 }

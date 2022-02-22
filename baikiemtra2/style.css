@@ -374,8 +374,10 @@ h2 {
   }
   .princing-text h2{
     font-size: 20px;
-    width: 405px;
+    width: 300px;
     text-align: center;
+    margin-left: 50px;
+    line-height: 25px;
   }
   #pricing .p3{
     width: 100%;

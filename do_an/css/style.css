@@ -4,3 +4,9 @@
 .logo{
     text-align: center;
 }
+.logofooter img {
+    max-width: 92%;
+}
+.footer p {
+    font-weight: 400;
+}

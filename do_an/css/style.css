@@ -10,3 +10,9 @@
 .footer p {
     font-weight: 400;
 }
+@media (max-width: 740px) {
+    .logofooter{
+        max-width: 50%;
+        text-align: center;
+    }
+}

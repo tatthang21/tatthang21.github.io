@@ -16,3 +16,9 @@
         text-align: center;
     }
 }
+ @media (min-width: 740px) and (max-width: 1023px) {
+    .logofooter{
+        max-width:80%;
+        text-align: center;
+    }
+}

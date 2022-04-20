@@ -56,10 +56,13 @@ nav {
   display: flex;
   list-style: none;
   margin: 0;
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 #main-menu li a {
   display: block;
-  padding: 18px 69px;
+  padding: 18px 30px;
   display: flex;
 }
 #tab li {
@@ -123,7 +126,7 @@ nav {
   color: #858585;
   position: absolute;
   top: 0px;
-  right: 50px;
+  right: 0px;
   padding: 20px 0;
 }
 .headerall {

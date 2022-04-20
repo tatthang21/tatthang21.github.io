@@ -1132,6 +1132,9 @@ strong {
 
 /*reponsive */
 @media (min-width: 740px) and (max-width: 1023px) {
+  #header{
+    margin-bottom: 10px;
+  }
   #main-menu li a {
     padding: 10px 20px;
     font-size: 12px;
@@ -1145,9 +1148,11 @@ strong {
   }
   .cart {
     font-size: 12px;
+    margin-top: 5px;
   }
   #slider-banner {
     margin-top: 32px;
+    padding-top: 0;
   }
   .btn {
     font-size: 10px;
@@ -1214,6 +1219,12 @@ strong {
   min-width: 22.8%;
   padding-top: 5px;
   padding-right: 1px;
+}
+.logo img {
+  max-width: 95%;
+}
+#new_product {
+  padding: 50px 0 30px 0;
 }
 }
 @media (max-width: 740px) {
@@ -1292,7 +1303,7 @@ strong {
     margin-top: 30px;
   }
   .footer_logo img {
-    max-width: 55%;
+    max-width: 45%;
     max-height: 100%;
 }
 .text_footer p {
@@ -1320,4 +1331,94 @@ strong {
 .banner_ao {
   padding-top: 0;
 }
+.logo img {
+  max-width: 90%;
+}
+}
+
+
+/*nav mobie */
+.nav_bars_btn i{
+  font-size: 22px;
+  display: none;
+}
+.nav_overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn linear 0.2s;
+}
+.nav_mobie{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  max-width: 100%;
+  background-color: #fff;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform linear 0.2s , opacity linear 0.2s;
+}
+.nav_mobie_list{
+  float: left;
+  width: 300px;
+  max-width: 100%;
+}
+.nav_mobie_list li {
+  display: block;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.nav_mobie_list li i {
+  float: right;
+}
+.sub-menu_mobie {
+  display: none;
+}
+.nav__input1:checked ~ .sub-menu_mobie{
+  display: block;
+}
+.nav__input2:checked ~ .sub-menu_mobie{
+  display: block;
+}
+.nav__input3:checked ~ .sub-menu_mobie{
+  display: block;
+}
+.nav__input:checked ~ .nav_overlay {
+  display: block;
+}
+.nav__input:checked ~ .nav_mobie {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.sub-menu_mobie li:hover {
+  background-color: #e1e1e169;
+}
+.nav_mobie_list i {
+  padding: 5px 10px;
+}
+@media (max-width: 1023px){
+  .nav_bars_btn i{
+    display: block;
+  }
+  .textHotile{
+    display: none;
+  }
+  #tab{
+    display: none;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

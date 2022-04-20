@@ -1226,6 +1226,9 @@ strong {
 .banner_ao {
    padding-top: 0px;
 }
+#path {
+  padding-top: 0px;
+}
 }
 @media (max-width: 740px) {
   #tab {
@@ -1333,6 +1336,9 @@ strong {
 }
 .logo img {
   max-width: 90%;
+}
+#path {
+  padding-top: 0px;
 }
 }
 

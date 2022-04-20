@@ -16,7 +16,7 @@ $(document).ready(function () {
     autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 740,
         settings: {
           arrows: false,
         },

@@ -25,9 +25,10 @@ function renderProducts(arr) {
       currency: "VND",
     });
     content += `           
-    <div class="col l-12 m-12 c-12 sidebar">    
-    <div class="product payment-list">
-              <div class="product__image">
+
+  
+    <div class="row product payment-list">
+              <div class="product__image col l-2 m-4 c-2">
                 <div class="product-thumbnail">
                   <div class="product-thumbnail__wrapper" data-tg-static="">
                     <img
@@ -37,13 +38,13 @@ function renderProducts(arr) {
                   <span class="product-thumbnail__quantity total-item">${t.count}</span>
                 </div>
               </div>
-              <div class="product__description">
+              <div class="product__description col l-7 m-5 c-7">
                 <p class="product__description__name">${t.name}</p>
                 <p class="product__description__property">${t.type} / L</p>
               </div>
-              <div class="product__price">${VNDD}</div>
+              <div class="product__price col l-3 m-3 c-3 text-center">${VNDD}</div>
             </div>
-            </div>
+       </div>
       `;
     order.innerHTML = "ĐƠN HÀNG " + `(${arr.length})`;
     totalItems.innerHTML = arr.length;

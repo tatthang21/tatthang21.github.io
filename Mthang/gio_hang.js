@@ -25,7 +25,7 @@ function renderTodo(arr) {
     content += `
     <div class="col l-12 m-12 c-12  products-cart">
             <div class="row col_right">
-              <div class="col l-3 m-3 c-4">
+              <div class="col l-3 m-3 c-3">
                 <div class="shopping_card_img">
                   <a href="./chitietsanpham.html"
                     ><img
@@ -53,7 +53,7 @@ function renderTodo(arr) {
                   <p class="price pricechange">${VNDD}</p>
                 </div>
               </div>
-              <div class="col l-2 m-2 c-2">
+              <div class="col l-2 m-2 c-3">
                 <div class="quantity_block text-center">
                   <a href="#" id="minus" onclick="changeTotalProductMinus(${t.id})">--</a>
                   <a href="#" id="total-products">${t.count}</a>

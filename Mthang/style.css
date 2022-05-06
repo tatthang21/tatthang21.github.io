@@ -2319,6 +2319,9 @@ strong {
     margin-top: 89px;
 }
 }
+#pagination {
+  margin-top: 20px;
+}
 @media (max-width: 740px) {
 .modal_mobile {
   display: block;
@@ -2344,6 +2347,9 @@ strong {
 #information {
   /* padding: 0em 2em 0 2em; */
   margin-top: 62px;
+}
+#pagination {
+  margin-top: -10px;
 }
 }
 

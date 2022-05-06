@@ -526,7 +526,7 @@ strong {
 /*Chi tiết sản phẩm*/
 
 #path {
-  padding-top: 17px;
+  padding-top: 131px;
 }
 .text_path i {
   padding: 0 5px;
@@ -995,9 +995,15 @@ strong {
 .product {
   display: flex;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  /* flex-wrap: wrap; */
+  max-width: 100%;
 }
+/* .product:last-child {
+  padding-bottom: 10px;
+} */
+
 .product1 {
   display: flex;
   align-items: center;
@@ -2349,3 +2355,7 @@ strong {
 .text_footer strong {
   padding: 0;
 }
+ .payment-list {
+   flex-wrap: wrap;
+ }
+ 

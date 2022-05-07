@@ -526,7 +526,7 @@ strong {
 /*Chi tiết sản phẩm*/
 
 #path {
-  padding-top: 131px;
+  padding-top: 17px;
 }
 .text_path i {
   padding: 0 5px;
@@ -2364,4 +2364,3 @@ strong {
  .payment-list {
    flex-wrap: wrap;
  }
- 

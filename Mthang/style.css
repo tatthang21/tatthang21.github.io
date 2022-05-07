@@ -2289,6 +2289,15 @@ strong {
   .path {
     margin-top: 112px;
   }
+  #pagination {
+    margin-top: 30px;
+}
+.path_dn {
+  margin-top: 114px;
+}
+.path_dk {
+  margin-top: 114px;
+}
 }
 @media (min-width: 740px) and (max-width: 1023px) {
   .modal-header {

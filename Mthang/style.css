@@ -2272,6 +2272,12 @@ strong {
     line-height: 40px;
 }
 
+#path1 .grid {
+  padding: 15px;
+  border-top: 1px solid #85858525;
+  border-bottom: 0.5px solid #85858525;
+}
+
 /* mà hình PC*/
 @media (min-width: 1113px) {
   .modal-content {
@@ -2298,8 +2304,17 @@ strong {
 .path_dk {
   margin-top: 114px;
 }
+#path .pathsp {
+  margin-top: 114px;
+}
+#path1 {
+  margin-top: 131px;
+}
 }
 @media (min-width: 740px) and (max-width: 1023px) {
+  #path1 {
+    padding-top: 55px;
+}
   .modal-header {
     font-size: 12px;
     letter-spacing: 0;
@@ -2332,6 +2347,9 @@ strong {
   margin-top: 20px;
 }
 @media (max-width: 740px) {
+  #path1 .grid {
+    margin-top: 50px;
+}
 .modal_mobile {
   display: block;
   margin-top: -40px;

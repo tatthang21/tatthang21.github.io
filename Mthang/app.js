@@ -19,7 +19,6 @@ $(document).ready(function () {
         breakpoint: 740,
         settings: {
           arrows: false,
-          autoplay : false ,
         },
       },
     ],

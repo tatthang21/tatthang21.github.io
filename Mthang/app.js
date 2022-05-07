@@ -19,6 +19,7 @@ $(document).ready(function () {
         breakpoint: 740,
         settings: {
           arrows: false,
+          autoplay : false ,
         },
       },
     ],
@@ -50,6 +51,7 @@ $("#product_card .autoplay").slick({
           slidesToShow: 2,
           slidesToScroll: 1,
           arrows: false,
+          autoplay : false ,
         },
       },
    

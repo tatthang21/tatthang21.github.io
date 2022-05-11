@@ -10,10 +10,10 @@ body {
   padding-top: 10px;
   font-weight: 500;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 .logo img {
-  max-width: 60%;
+  max-width: 40%;
 }
 .logo {
   text-align: center;
@@ -23,7 +23,7 @@ a {
   color: black;
 }
 .cart {
-  margin-top: 19px;
+  margin-top: 6px;
   display: flex;
   justify-content: flex-end;
 }
@@ -34,7 +34,7 @@ a {
   padding: 0 10px;
 }
 .textHotile {
-  margin-top: 23px;
+  margin-top: 6px;
 }
 .text-center {
   text-align: center;
@@ -47,7 +47,7 @@ a {
   max-width: 100%;
 }
 .fa-magnifying-glass {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .container-menu {
@@ -69,7 +69,7 @@ nav {
 }
 #main-menu li a {
   display: block;
-  padding: 18px 30px;
+  padding: 12px 30px;
   display: flex;
 }
 #tab li {
@@ -89,7 +89,7 @@ nav {
   position: absolute;
   background: white;
   list-style: none;
-  width: 200px;
+  width: 150px;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
@@ -100,7 +100,7 @@ nav {
   display: block;
 }
 #main-menu ul.sub-menu a {
-  padding: 15px;
+  padding: 10px;
   border-bottom: 1px solid rgb(206, 202, 202);
 }
 #main-menu ul.sub-menu li:last-child a {
@@ -133,8 +133,8 @@ nav {
   color: #858585;
   position: absolute;
   top: 0px;
-  right: 0px;
-  padding: 20px 0;
+  right: 10px;
+  padding: 13px 0;
 }
 .headerall {
   position: fixed;
@@ -197,7 +197,7 @@ input[name="bottom"] {
   margin-left: -20%;
 }
 #slider-banner {
-  margin-top: 127px;
+  margin-top: 85px;
 }
 .slick-arrow {
   position: absolute;
@@ -300,7 +300,7 @@ li {
 
 .middle {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .btn {
   position: relative;
@@ -466,7 +466,7 @@ strong {
   color: red;
 }
 .banner_ao {
-  padding-top: 125px;
+  padding-top: 85px;
 }
 #sort_cate {
   padding: 10px;
@@ -526,7 +526,7 @@ strong {
 /*Chi tiết sản phẩm*/
 
 #path {
-  padding-top: 17px;
+  padding-top: 42px;
 }
 .text_path i {
   padding: 0 5px;
@@ -843,7 +843,7 @@ strong {
 /*thong tin nhan hang */
 #information {
   /* padding: 0em 2em 0 2em; */
-  margin-top: 165px;
+  margin-top: 120px;
 }
 .information_logo img {
   max-width: 48%;
@@ -1080,13 +1080,13 @@ strong {
 }
 .order p a {
   font-size: 12px;
-  color: #2a9dcc;
+  color: #000;
 }
 .order i {
   padding-right: 5px;
 }
 .order p a:hover {
-  color: #225179;
+  color: #dc4e3f;
 }
 .order span {
   float: right;
@@ -1284,6 +1284,7 @@ strong {
 .evo-article-toolbar-right a:hover {
   color: #dc4e3f;
 }
+
 /* css danh sách sản phẩm */
 #evo-list-blog-page {
   margin-top: 30px;
@@ -1417,7 +1418,6 @@ strong {
 
   .btn_portfolio {
     margin-top: -115px;
-    margin-left: 25px;
   }
   #product_portfolio h2 {
     font-size: 15px;
@@ -2277,7 +2277,14 @@ strong {
   border-top: 1px solid #85858525;
   border-bottom: 0.5px solid #85858525;
 }
-
+#patht{
+  padding-top: 86px;
+}
+#patht .grid {
+  padding: 15px;
+  border-top: 1px solid #85858525;
+  border-bottom: 0.5px solid #85858525;
+}
 /* mà hình PC*/
 @media (min-width: 1113px) {
   .modal-content {
@@ -2308,10 +2315,13 @@ strong {
   margin-top: 114px;
 }
 #path1 {
-  margin-top: 131px;
+  margin-top: 86px;
 }
 }
 @media (min-width: 740px) and (max-width: 1023px) {
+  #patht{
+    padding-top: 56px;
+  }
   #path1 {
     padding-top: 55px;
 }
@@ -2344,9 +2354,12 @@ strong {
 }
 }
 #pagination {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 @media (max-width: 740px) {
+  #patht{
+    padding-top: 43px;
+  }
   #path1 .grid {
     margin-top: 50px;
 }
@@ -2391,3 +2404,18 @@ strong {
  .payment-list {
    flex-wrap: wrap;
  }
+ #product_card_ds .product_card1 .formds{
+  height: 50px;
+}
+.product_card1 .formds {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  opacity: 0;
+  transition: 0.25s ease-out;
+  width: 100%;
+  height: 50px;
+}
+.product-card__actions1 {
+  margin-top: -20px;
+}
